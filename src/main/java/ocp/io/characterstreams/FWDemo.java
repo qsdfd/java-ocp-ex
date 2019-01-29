@@ -9,9 +9,9 @@ public class FWDemo {
         FileWriter fileWriter = null;
 
         try {
-//            fileWriter = new FileWriter("myFile");
-//            fileWriter = new FileWriter(new File("myFile"));
-            fileWriter = new FileWriter(new File("myFile"), true);
+//            fileWriter = new FileWriter("myFile.txt");
+//            fileWriter = new FileWriter(new File("myFile.txt"));
+            fileWriter = new FileWriter(new File("myFile.txt"), true);
 
             fileWriter.write("Peter is going to Japan\n");
 

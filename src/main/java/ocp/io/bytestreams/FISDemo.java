@@ -11,9 +11,9 @@ public class FISDemo {
 
 
         try {
-            File file = new File("NiceFile");
+            File file = new File("NiceFile.txt");
             fileInputStream = new FileInputStream(file);
-//            fileInputStream = new FileInputStream("NiceFile");
+//            fileInputStream = new FileInputStream("NiceFile.txt");
 
             System.out.println("Available: " + fileInputStream.available());
             System.out.println();

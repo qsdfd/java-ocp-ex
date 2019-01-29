@@ -28,7 +28,7 @@ public class PSDemo {
     }
 
     private static void ex1(FileOutputStream fileOutputStream, PrintStream printStream) throws FileNotFoundException {
-        fileOutputStream = new FileOutputStream("myFile");
+        fileOutputStream = new FileOutputStream("myFile.txt");
         printStream = new PrintStream(fileOutputStream);
 
         printStream.println(2500);

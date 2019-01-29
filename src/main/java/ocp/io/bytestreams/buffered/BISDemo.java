@@ -11,7 +11,7 @@ public class BISDemo {
         BufferedInputStream bufferedInputStream = null;
 
         try {
-            fileInputStream = new FileInputStream("myInputFile");
+            fileInputStream = new FileInputStream("myInputFile.txt");
 //            int bufferSize = 8 * 1024;
 //            bufferedInputStream = new BufferedInputStream(fileInputStream, bufferSize);
             bufferedInputStream = new BufferedInputStream(fileInputStream);

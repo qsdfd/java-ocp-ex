@@ -26,7 +26,7 @@ public class ScannerDemo {
     }
 
     private static void ex5(Scanner scanner) throws FileNotFoundException {
-        scanner = new Scanner(new BufferedReader(new FileReader("testDoublesFile")));
+        scanner = new Scanner(new BufferedReader(new FileReader("testDoublesFile.txt")));
         scanner.useLocale(Locale.US);
         int sum = 0;
 
@@ -44,7 +44,7 @@ public class ScannerDemo {
     }
 
     private static void ex4(Scanner scanner) throws FileNotFoundException {
-        scanner = new Scanner(new BufferedReader(new FileReader("myFile")));
+        scanner = new Scanner(new BufferedReader(new FileReader("myFile.txt")));
 
         while (scanner.hasNext()) {
             System.out.println(scanner.nextLine());
@@ -52,7 +52,7 @@ public class ScannerDemo {
     }
 
     private static void ex3(Scanner scanner) throws FileNotFoundException {
-        scanner = new Scanner(new File("myFile"));
+        scanner = new Scanner(new File("myFile.txt"));
 
         while(scanner.hasNext()){
             System.out.println(scanner.nextLine());

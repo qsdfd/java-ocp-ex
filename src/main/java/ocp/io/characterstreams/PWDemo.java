@@ -11,8 +11,8 @@ public class PWDemo {
         PrintWriter printWriter = null;
 
         try {
-            fileWriter = new FileWriter("myOutputFile");
-            fileOutputStream = new FileOutputStream(new File("myOutputFile"));
+            fileWriter = new FileWriter("myOutputFile.txt");
+            fileOutputStream = new FileOutputStream(new File("myOutputFile.txt"));
 
             printWriter = new PrintWriter(fileWriter);
 //            printWriter = new PrintWriter(fileOutputStream);

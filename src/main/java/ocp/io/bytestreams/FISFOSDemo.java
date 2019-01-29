@@ -11,8 +11,8 @@ public class FISFOSDemo {
         FileOutputStream fileOutputStream = null;
 
         try {
-            fileInputStream = new FileInputStream("myInputFile");
-            fileOutputStream = new FileOutputStream("myOutputFile", false);
+            fileInputStream = new FileInputStream("myInputFile.txt");
+            fileOutputStream = new FileOutputStream("myOutputFile.txt", false);
 
             int i;
 

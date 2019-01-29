@@ -9,8 +9,8 @@ public class FRDemo {
         FileReader fileReader = null;
 
         try {
-            fileReader = new FileReader("myInputFile");
-//            fileReader = new FileReader(new File("myInputFile"));
+            fileReader = new FileReader("myInputFile.txt");
+//            fileReader = new FileReader(new File("myInputFile.txt"));
 
             int i;
 

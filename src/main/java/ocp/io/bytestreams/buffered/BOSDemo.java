@@ -11,7 +11,7 @@ public class BOSDemo {
         BufferedOutputStream bufferedOutputStream = null;
 
         try {
-            fileOutputStream = new FileOutputStream("myOutputFile");
+            fileOutputStream = new FileOutputStream("myOutputFile.txt");
             bufferedOutputStream = new BufferedOutputStream(fileOutputStream);
 
             byte byteArray[] = "Peter is going to India.".getBytes();

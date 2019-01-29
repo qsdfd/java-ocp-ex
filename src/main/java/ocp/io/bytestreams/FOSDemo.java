@@ -9,7 +9,7 @@ public class FOSDemo {
         FileOutputStream fileOutputStream = null;
 
         try {
-            fileOutputStream = new FileOutputStream("newFIle");
+            fileOutputStream = new FileOutputStream("newFIle.txt");
             byte[] byteArray = "Peter is coming to India ok".getBytes();
             fileOutputStream.write(byteArray);
 

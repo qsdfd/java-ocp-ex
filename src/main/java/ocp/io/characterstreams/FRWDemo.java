@@ -11,8 +11,8 @@ public class FRWDemo {
         FileWriter fileWriter = null;
 
         try {
-            fileReader = new FileReader("myInputFile");
-            fileWriter = new FileWriter("myOutputFile");
+            fileReader = new FileReader("myInputFile.txt");
+            fileWriter = new FileWriter("myOutputFile.txt");
 
             int c;
 

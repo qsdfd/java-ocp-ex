@@ -11,7 +11,7 @@ public class BRDemo {
         BufferedReader bufferedReader = null;
 
         try {
-            fileReader = new FileReader("myInputFile");
+            fileReader = new FileReader("myInputFile.txt");
 //            int bufferSize = 8 * 1024;
 //            bufferedReader = new BufferedReader(fileReader, bufferSize);
             bufferedReader = new BufferedReader(fileReader);
