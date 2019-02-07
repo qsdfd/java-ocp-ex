@@ -10,7 +10,7 @@ public class JoinDemo {
         secondThread = new Thread(jt, "Second Thread");
         firstThread.start();
 
-        while(true){
+        while(true) {
             Thread.State firstThreadState = firstThread.getState();
             Thread.State secondThreadState = secondThread.getState();
 
@@ -25,7 +25,5 @@ public class JoinDemo {
                 break;
             }
         }
-
-
     }
 }
