@@ -1,4 +1,4 @@
-package ocp.concurrency.threadsafety;
+package ocp.concurrency.threadsafety.busreservation;
 
 public class HappyBusMain {
     public static void main(String[] args) {

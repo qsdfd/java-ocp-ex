@@ -1,4 +1,4 @@
-package ocp.concurrency.threadsafety;
+package ocp.concurrency.threadsafety.busreservation;
 
 public class PassengerThread extends Thread {
     private int seatsNeeded;
